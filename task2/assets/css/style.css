@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-4{
+    width: 33.33%;
+}
+.row{
+    display: flex;
+}
+body{
+    background-color: rgb(190, 190, 190);
+}
+.header{
+    text-align: center;
+    margin-top: 50px;
+}
+.header h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.header span{
+    font-style: italic;
+}
+#content .main{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 511px;
+}
+#content .main .row .col-4 .first-content{
+    background-color: rgb(0, 146, 110);
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Arial';
+    padding-bottom: 55px;
+}
+#content .main .row .col-4 .first-content h1{
+    padding-bottom: 10px;
+    color: white;
+}
+#content .main .row .col-4 .first-content h3{
+    padding-bottom: 20px;
+    color: white;
+}
+#content .main .row .col-4 .first-content span{
+    color: white;
+}
+#content .main .row .col-4 .first-content a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+#content .main .row .col-4 .first-icon{
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 91px;
+}
+#content .main .row .col-4 .first-icon i{
+    font-size: 70px;
+}
+#content .main .row .col-4 .second-content{
+    background-color: rgb(255, 208, 0);
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Arial';
+    padding-bottom: 55px;
+}
+#content .main .row .col-4 .second-content h1{
+    padding-bottom: 10px;
+    color: white;
+}
+#content .main .row .col-4 .second-content h3{
+    padding-bottom: 20px;
+    color: white;
+}
+#content .main .row .col-4 .second-content span{
+    color: white;
+}
+#content .main .row .col-4 .second-content a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+#content .main .row .col-4 .second-icon{
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 91px;
+}
+#content .main .row .col-4 .second-icon i{
+    font-size: 70px;
+}
+#content .main .row .col-4 .third-content{
+    background-color: rgb(89, 89, 255);
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Arial';
+    padding-bottom: 55px;
+}
+#content .main .row .col-4 .third-content h1{
+    padding-bottom: 10px;
+    color: white;
+}
+#content .main .row .col-4 .third-content h3{
+    padding-bottom: 20px;
+    color: white;
+}
+#content .main .row .col-4 .third-content span{
+    color: white;
+}
+#content .main .row .col-4 .third-content a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+#content .main .row .col-4 .third-icon{
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 91px;
+}
+#content .main .row .col-4 .third-icon i{
+    font-size: 70px;
+}

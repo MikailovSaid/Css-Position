@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+body{
+    background-image: url(../img/4.jpg);
+    background-size: 100%;
+    font-family: "Helvetica";
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    color: white;
+    font-style: initial;
+    text-decoration: none;
+    
+}
+.header .logo{
+    padding-top: 28px;
+    padding-left: 50px;
+}
+.header .logo a{
+    font-size: 30px;
+}
+.header .links{
+    padding-top: 35px;
+    padding-right: 50px;
+}
+.header .links a{
+    padding-right: 10px;
+}
+.header .links i{
+    font-size: 25px;
+}
+#order .row .col-6 .text{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+#order .row .col-6 .text h1{
+    color: white;
+    font-size: 63px;
+    padding-bottom: 10px;
+}
+#order .row .col-6 .text span{
+    color: white;
+}
+#order .row .col-6 .text button{
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+#order .row .col-6 .text button:active{
+    color: black;
+    background-color: white;
+}
+#order .row .col-6 .person-info{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-top: 130px;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 365px;
+}
+#order .row .col-6 .person-info .name{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+#order .row .col-6 .person-info .email{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+#order .row .col-6 .person-info .phone{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+#order .row .col-6 .person-info select{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: rgb(119, 119, 119);
+}
+#order .row .col-6 .person-info .check{
+    cursor: pointer;
+}
+#order .row .col-6 .person-info span{
+    font-size: 10px;
+    color: rgb(119, 119, 119);
+}
+#order .row .col-6 .person-info a{
+    color: rgb(119, 119, 119);
+}
+#order .row .col-6 .person-info .get{
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#order .row .col-6 .person-info .get:active{
+    color: black;
+    background-color: white;
+}
